@@ -9,11 +9,19 @@
 /* styles.css */
 .blue-container {
     background-color: #007bff; /* Blue color */
+     box-shadow: 0px 0px 15px -5px black;
   }
   
   .outer-container {
     background-color: #ffffff; /* White color */
+   
   }
+
+  /* styles.css */
+.forget-password {
+    color: black; /* Change the color to black */
+  }
+  
   
   
 
