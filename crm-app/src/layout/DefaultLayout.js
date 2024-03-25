@@ -3,13 +3,21 @@ import { Header } from './partials/Header.comp'
 import { Footer } from './partials/Footer.comp'
 
 
-const DefaultLayout = () => {
+const DefaultLayout = ({children}) => {
   return (
-    <div>
-     <Header />
-     main page content
+      <div className='default-layout'>
+        <header className='header'>
+           <Header />
+        </header>
+
+        <main className='main'>
+        {children}
+        </main>
+       
+        <footer className='footer'>
         <Footer />
-    </div>
+        </footer>
+      </div>
   )
 }
 
